@@ -1,0 +1,542 @@
+/*extra  small devices*/
+@media(max-width:375.98px) {
+    #about-sec .about-content-main-card {
+        margin: 0 40px !important;
+        margin-bottom: 10px;
+    }
+
+    #counter-sec .counter-content {
+        padding: 20px !important;
+    }
+
+    #copyright h6 {
+        line-height: 25px;
+    }
+}
+
+@media(max-width:575.98px) {
+    #about-sec .card {
+        margin: 20px 10px !important;
+        padding: 20px 15px !important;
+    }
+
+    #testimonial-sec .testimonial-details-item {
+        padding: 20px;
+    }
+
+    #market-place-sec .market-place-item::before {
+        width: 110% !important;
+    }
+}
+
+
+/* ============================= Extra Small and Small Devices css ============================= */
+@media(max-width:767.98px) {
+    :root {
+        --clipPathBottom: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        --clipPathTopBottom: polygon(0 7%, 100% 0, 100% 94%, 0% 100%);
+    }
+
+    #banner .row {
+        margin: 0;
+    }
+
+    #portfolio-sec .sec-heading {
+        margin-top: 70px;
+    }
+
+    #portfolio-sec .portfolio-content {
+        margin-bottom: 100px;
+    }
+
+    #about-sec .about-content-main-card-wrapper {
+        order: -1;
+    }
+
+    #about-sec .about-content-main-card {
+        margin: 0 60px;
+        margin-bottom: 20px;
+    }
+
+    #about-sec .about-content-img {
+        padding: 12px;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #about-sec .card::before,
+    #about-sec .card::after {
+        display: none;
+    }
+
+    #about-sec .card {
+        margin: 20px 50px;
+        text-align: center !important;
+        padding: 26px 28px;
+    }
+
+    #about-sec .card:hover {
+        filter: drop-shadow(0px 0px 5px #bdb3b3);
+        -webkit-filter: drop-shadow(0px 0px 5px #bdb3b3);
+    }
+
+    #services-sec .border-design {
+        display: none;
+    }
+
+    #services-sec .wrapper {
+        padding: 50px 0;
+    }
+
+    #services-sec .service-item {
+        margin: 30px 0;
+    }
+
+    #services-sec .service-title {
+        order: 1;
+        text-align: center !important;
+    }
+
+    #services-sec .service-title h3 {
+        margin-bottom: 10px;
+    }
+
+    #services-sec .service-description::before,
+    #services-sec .service-description::after {
+        top: -15px !important;
+        left: 50% !important;
+        transform: translateX(-50%) rotate(45deg) !important;
+        -webkit-transform: translateX(-50%) rotate(45deg) !important;
+        -moz-transform: translateX(-50%) rotate(45deg) !important;
+        -ms-transform: translateX(-50%) rotate(45deg) !important;
+        -o-transform: translateX(-50%) rotate(45deg) !important;
+        z-index: -9;
+    }
+
+    #services-sec .service-description {
+        order: 3;
+        margin: 0 20px;
+        margin-top: 20px;
+        padding: 35px 25px;
+    }
+
+    #services-sec .service-description p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #services-sec .service-img {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    #services-sec .service-img img {
+        width: 20%;
+    }
+
+    #services-sec .service-item .row>* {
+        flex-shrink: 1;
+    }
+
+    #testimonial-sec .border-design2,
+    #testimonial-sec .border-design-inside,
+    #testimonial-sec .testimonial-details-item::after {
+        display: none;
+    }
+
+    #testimonial-sec .testimonial-details-item-wrapper {
+        margin: 0;
+    }
+
+    #testimonial-sec .testimonial-details-item {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #testimonial-sec .testimonial-details-item h4 {
+        margin: 10px 0;
+    }
+
+    #testimonial-sec .testimonial-details-item p {
+        margin-bottom: 14px;
+    }
+
+    #testimonial-sec .testimonial-content {
+        padding-top: 80px;
+        padding-bottom: 115px;
+    }
+
+    #pricing-sec .price-details {
+        padding-bottom: 20px;
+    }
+
+    #counter-sec {
+        clip-path: polygon(0 11%, 100% 0, 100% 91%, 0% 100%);
+    }
+
+    #counter-sec .counter-content {
+        transform: rotate(354deg);
+        -moz-transform: rotate(354deg);
+        -webkit-transform: rotate(354deg);
+        -o-transform: rotate(354deg);
+        -ms-transform: rotate(354deg);
+        padding: 40px;
+        --bs-gutter-y: 30px;
+    }
+
+    #counter-sec .counter-item {
+        padding: 16px 0;
+    }
+
+    #counter-sec .counter-item::before {
+        left: -2px;
+        width: 100%;
+    }
+
+    #counter-sec .overlay {
+        padding: 25px 0;
+    }
+
+    #counter-sec .counter-item span {
+        font-size: 25px;
+    }
+
+    #counter-sec .counter-item h6 {
+        font-size: 14px;
+    }
+
+    #teams-sec .card {
+        margin: 0 40px;
+    }
+
+    #market-place-sec {
+        clip-path: polygon(0 19%, 100% 0, 100% 81%, 0% 100%);
+    }
+
+    #market-place-sec .market-place-content {
+        transform: rotate(354deg);
+        -moz-transform: rotate(354deg);
+        -webkit-transform: rotate(354deg);
+        -o-transform: rotate(354deg);
+        -ms-transform: rotate(354deg);
+    }
+
+    #market-place-sec .market-place-item {
+        margin: 0 15px;
+    }
+
+    #market-place-sec .market-place-item::before {
+        margin: 0 20px;
+        left: -27px;
+        width: 105%;
+    }
+
+    #footer .footer-item {
+        border: none;
+    }
+
+    #footer .footer-heading {
+        padding-top: 20px;
+    }
+
+    #footer .footer-heading::after {
+        transform: rotate(354deg);
+        -moz-transform: rotate(354deg);
+        -webkit-transform: rotate(354deg);
+        -o-transform: rotate(354deg);
+        -ms-transform: rotate(354deg);
+    }
+
+    #footer .footer-item {
+        margin-bottom: 36px;
+    }
+
+    #footer .social-media-heading h3 {
+        margin-top: 10px;
+    }
+}
+
+/*================ Small devices css only================ */
+@media(min-width:576px) and (max-width:767.98px) {
+    :root {
+        --clipPathBottom: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+
+    #teams-sec .card {
+        margin: 0 15px;
+    }
+
+    #portfolio-sec {
+        clip-path: polygon(0 12%, 100% 0, 100% 92%, 0% 100%);
+    }
+
+    #portfolio-sec .overlay {
+        padding-top: 20px;
+    }
+
+    #counter-sec .counter-content {
+        transform: rotate(357deg);
+        -webkit-transform: rotate(357deg);
+        -moz-transform: rotate(357deg);
+        -ms-transform: rotate(357deg);
+        -o-transform: rotate(357deg);
+    }
+
+    #counter-sec .counter-item::before {
+        width: 108%;
+    }
+
+    #market-place-sec .market-place-content {
+        transform: rotate(356deg);
+        -webkit-transform: rotate(356deg);
+        -moz-transform: rotate(356deg);
+        -ms-transform: rotate(356deg);
+        -o-transform: rotate(356deg);
+    }
+
+    #market-place-sec .market-place-item {
+        margin: 0 22px;
+    }
+
+    #market-place-sec .market-place-item::before {
+        left: -34px;
+        width: 120%;
+    }
+
+    #footer .footer-heading::after {
+        transform: rotate(356deg);
+        -webkit-transform: rotate(356deg);
+        -moz-transform: rotate(356deg);
+        -ms-transform: rotate(356deg);
+        -o-transform: rotate(356deg);
+    }
+
+}
+
+/* Extra Small - Small -  Medium Devices */
+@media(max-width:991.98px) {
+    .sec-heading {
+        padding-bottom: 30px;
+    }
+
+    #navbar .navbar-toggler {
+        background: #fff;
+        box-shadow: none;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #navbar .navbar-toggler:focus,
+    #navbar .navbar-toggler:hover {
+        background: #fec600;
+    }
+
+    #navbar .navbar-toggler .icon-bar {
+        background: #222222;
+    }
+
+    #navbar {
+        padding: 20px 0;
+    }
+
+    #navbar .navbar-nav {
+        text-align: center;
+        background-color: #222222;
+    }
+
+    #navbar.navbar-bg .nav-link,
+    #navbar .navbar-nav a {
+        width: max-content;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #navbar .nav-item:last-child .nav-link {
+        margin-right: auto !important;
+    }
+
+    #banner .carousel-control-prev,
+    #banner .carousel-control-next {
+        width: 34px;
+        height: 34px;
+        margin: 24px;
+        top: 57%;
+    }
+
+    #pricing-sec .pricing-item {
+        margin: 0px 20px 35px;
+    }
+
+    #footer .footer-heading {
+        padding-top: 20px;
+    }
+
+    #footer .footer-item {
+        margin-bottom: 36px;
+        border: none;
+    }
+}
+
+/* Tablet Devices css only  */
+@media (min-width: 767.98px) and (max-width:991.98px) {
+    :root {
+        --clipPathBottom: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+
+    #portfolio-sec {
+        clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    }
+
+
+    #about-sec .card {
+        padding: 25px 20px;
+    }
+
+    #about-sec .card-title {
+        margin-bottom: 10px;
+    }
+
+    #about-sec .about-content-main-card {
+        margin: 32px 15px;
+    }
+
+    #testimonial-sec .testimonial-img-item.slick-center .img {
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        -o-transform: scale(1.25);
+    }
+
+    #services-sec .service-img img {
+        width: 75%;
+    }
+
+    #services-sec .slick-center .service-img img {
+        width: 95%;
+    }
+
+    #services-sec .service-description {
+        background-color: transparent;
+        box-shadow: none !important;
+        padding: 0 20px;
+    }
+
+    #services-sec .service-description p {
+        background: #eeeeee;
+        padding: 16px 18px;
+        position: relative;
+    }
+
+    #services-sec .service-description p::before {
+        content: '';
+        position: absolute;
+        z-index: -9;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        background: #eeeeee;
+        transform: translateY(-50%) rotate(45deg);
+        -webkit-transform: translateY(-50%) rotate(45deg);
+        -moz-transform: translateY(-50%) rotate(45deg);
+        -ms-transform: translateY(-50%) rotate(45deg);
+        -o-transform: translateY(-50%) rotate(45deg);
+        transition: all linear .5s;
+        -webkit-transition: all linear .5s;
+        -moz-transition: all linear .5s;
+        -ms-transition: all linear .5s;
+        -o-transition: all linear .5s;
+    }
+
+    #services-sec .service-description::before {
+        display: none;
+    }
+
+    #services-sec .service-description.desc-left p::before {
+        left: -15px;
+    }
+
+    #services-sec .service-description.desc-right p::before {
+        right: -15px;
+    }
+
+    #services-sec .slick-center .service-description.desc-left p {
+        filter: drop-shadow(-2px 2px 6px #bdb3b3);
+        -webkit-filter: drop-shadow(-2px 2px 6px #bdb3b3);
+    }
+
+    #services-sec .slick-center .service-description.desc-right p {
+        filter: drop-shadow(2px 2px 6px #bdb3b3);
+        -webkit-filter: drop-shadow(2px 2px 6px #bdb3b3);
+    }
+
+    #pricing-sec {
+        padding-bottom: 0px;
+    }
+
+    #counter-sec .counter-item::before {
+        left: 6px;
+        width: 98%;
+    }
+
+    #counter-sec {
+        clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+    }
+
+    #counter-sec .counter-content {
+        transform: rotate(356deg);
+        -moz-transform: rotate(356deg);
+        -webkit-transform: rotate(356deg);
+        -o-transform: rotate(356deg);
+        -ms-transform: rotate(356deg);
+        --bs-gutter-y: 30px;
+    }
+
+    #teams-sec .social-links a {
+        margin: 0 8px;
+    }
+
+    #market-place-sec .market-place-content {
+        transform: rotate(356deg);
+        -webkit-transform: rotate(356deg);
+        -moz-transform: rotate(356deg);
+        -ms-transform: rotate(356deg);
+        -o-transform: rotate(356deg);
+    }
+
+    #market-place-sec .market-place-item {
+        margin: 0 20px;
+    }
+
+    #market-place-sec .market-place-item::before {
+        left: -5px;
+        width: 110%;
+    }
+
+    #footer .footer-heading::after {
+        transform: rotate(355deg);
+        -webkit-transform: rotate(355deg);
+        -moz-transform: rotate(355deg);
+        -ms-transform: rotate(355deg);
+        -o-transform: rotate(355deg);
+    }
+}
+
+/*===================== Large Devices only =====================*/
+@media(min-width:992px) and (max-width:1199.98px) {
+    #navbar .nav-link {
+        font-size: 15px;
+        margin: 0 12px;
+        padding: 32px 0;
+    }
+
+    #navbar.navbar-bg .nav-link {
+        font-size: 15px;
+        margin: 0 14px;
+        padding: 32px 0;
+    }
+}
